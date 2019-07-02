@@ -1,0 +1,28 @@
+<!-- Footer -->
+{% if user.is_authenticated %}
+<footer id="main-footer" class="py-4 bg-primary text-white text-center">
+        <div class="container">
+                <div class="row">
+                        <div class="col-sm-4">
+                                <h3>About Procurement Portal </h3>
+                        </div>
+                        <div class="col-sm-4">
+                                <h3>Contact Information</h3>
+                                
+                        </div>
+                        <div class="col-sm-4">
+                                <h3>Related Links</h3> 
+                                <ul class="social-links nav nav-pills">
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                    
+                        </div>
+                </div>
+        </div>
+        Copyright &copy;
+        <span class="year">2019</span> 
+        
+    </footer>
+    {% endif %}
